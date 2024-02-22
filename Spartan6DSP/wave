@@ -1,0 +1,52 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /proj_th/A
+add wave -noupdate /proj_th/i
+add wave -noupdate /proj_th/B
+add wave -noupdate /proj_th/BCIN
+add wave -noupdate /proj_th/C
+add wave -noupdate /proj_th/D
+add wave -noupdate /proj_th/CARRYIN
+add wave -noupdate /proj_th/M
+add wave -noupdate /proj_th/P
+add wave -noupdate /proj_th/CARRYOUT
+add wave -noupdate /proj_th/CARRYOUTF
+add wave -noupdate /proj_th/CLK
+add wave -noupdate /proj_th/OPMODE
+add wave -noupdate /proj_th/CEA
+add wave -noupdate /proj_th/CEB
+add wave -noupdate /proj_th/CEC
+add wave -noupdate /proj_th/CECARRYIN
+add wave -noupdate /proj_th/CED
+add wave -noupdate /proj_th/CEM
+add wave -noupdate /proj_th/CEOPMODE
+add wave -noupdate /proj_th/CEP
+add wave -noupdate /proj_th/RSTA
+add wave -noupdate /proj_th/RSTB
+add wave -noupdate /proj_th/RSTC
+add wave -noupdate /proj_th/RSTCARRYIN
+add wave -noupdate /proj_th/RSTD
+add wave -noupdate /proj_th/RSTM
+add wave -noupdate /proj_th/RSTOPMODE
+add wave -noupdate /proj_th/RSTP
+add wave -noupdate /proj_th/PCIN
+add wave -noupdate /proj_th/BCOUT
+add wave -noupdate /proj_th/PCOUT
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {0 ns} 0}
+quietly wave cursor active 0
+configure wave -namecolwidth 150
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {0 ns} {1434 ns}
